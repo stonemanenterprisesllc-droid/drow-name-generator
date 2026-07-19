@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drow Name Generator — D&D 5e Male, Female & House Names</title>
+<meta name="description" content="Generate Drow (dark elf) names for D&D 5e instantly: male and female first names plus noble house names like Do'Urden and Baenre. Free, unlimited, copy-ready.">
+<link rel="canonical" href="https://drow.clickabletools.com/">
+<style>
+:root{--accent:#4c1d95;--accent-dark:#3b0764}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;color:#1f2937;background:#f8fafc}
+header{background:var(--accent);color:#fff;padding:1rem}
+header .wrap{max-width:760px;margin:0 auto}
+header a{color:#fff;text-decoration:none;font-weight:700;font-size:1.2rem}
+main{max-width:760px;margin:0 auto;padding:1rem}
+h1{font-size:1.5rem;margin:.75rem 0 .25rem}
+.tagline{color:#6b7280;margin-bottom:1rem}
+.tool{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.row{display:flex;gap:.75rem;flex-wrap:wrap;align-items:flex-end;margin-bottom:.75rem}
+.row>div{display:flex;flex-direction:column}
+label{font-weight:600;margin-bottom:.25rem}
+select{padding:.55rem;border:2px solid #d1d5db;border-radius:8px;font-size:1rem;font-family:inherit}
+.btn{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.7rem 1.5rem;font-size:1.05rem;font-weight:700;cursor:pointer}
+.btn:hover{background:var(--accent-dark)}
+#out{display:none;margin-top:1rem}
+.name-card{border:1px solid #e5e7eb;border-left:4px solid var(--accent);border-radius:8px;padding:.6rem .9rem;margin:.4rem 0;display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap}
+.name-card .n{font-size:1.15rem;font-weight:700}
+.copybtn{background:#fff;border:1px solid #d1d5db;border-radius:6px;padding:.25rem .6rem;cursor:pointer;font-size:.85rem}
+.copybtn:hover{border-color:var(--accent);color:var(--accent)}
+.ad-slot{margin:1rem 0}
+article h2{margin:1.5rem 0 .5rem;font-size:1.2rem}
+article p,article li{margin:.5rem 0}
+article ul{padding-left:1.4rem}
+footer{max-width:760px;margin:2rem auto;padding:1rem;font-size:.85rem;color:#6b7280;border-top:1px solid #e5e7eb}
+footer a{color:#6b7280;margin-right:1rem}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a href="./">Drow Name Generator</a></div></header>
+<main>
+<h1>Drow Name Generator for D&D 5e</h1>
+<p class="tagline">Dark elf first names plus a noble house name — ready for the Underdark.</p>
+
+<div class="tool">
+<div class="row">
+<div><label for="gender">Name style</label>
+<select id="gender"><option value="any">Any</option><option value="male">Male</option><option value="female">Female</option></select></div>
+<div><label for="house">House name</label>
+<select id="house"><option value="yes" selected>Include house name</option><option value="no">First name only</option></select></div>
+<div><label for="qty">How many</label>
+<select id="qty"><option>1</option><option selected>5</option><option>10</option><option>20</option></select></div>
+</div>
+<button class="btn" id="gen">🕷 Generate Names</button>
+<div id="out" aria-live="polite"></div>
+</div>
+
+<div class="ad-slot" data-ad="top"></div>
+
+<article>
+<h2>How Drow names work</h2>
+<p>The drow — dark elves of the Underdark in Dungeons &amp; Dragons — carry a personal name
+followed by a <strong>noble house name</strong>, and in drow society the house is everything.
+A drow introduces themselves as <em>first name + house</em>, like <em>Drizzt Do'Urden</em> or
+<em>Quenthel Baenre</em>. Male and female names sound distinct: female names (the ruling sex in
+matriarchal drow society) tend toward flowing, imperious endings (<em>Malice, Vierna, Quenthel</em>),
+while male names lean harder and sharper (<em>Zaknafein, Jarlaxle, Pharaun</em>). House names roll
+with dark, sibilant syllables — <em>Baenre, Xorlarrin, Mizzrym, Vandree</em>.</p>
+<h2>Using these names at your table</h2>
+<ul>
+<li><strong>Players:</strong> generate until one fits, then make it yours — drow often add an
+apostrophe or a shortened "use name" for outsiders who can't manage the full form.</li>
+<li><strong>Dungeon Masters:</strong> the 20-name batch instantly staffs a drow house, a merchant
+band like Bregan D'aerthe, or a list of priestesses of Lolth for your next Underdark arc.</li>
+<li><strong>Writers:</strong> pair a lowborn first name with a great house to hint at ambition, or
+a fallen house name to hint at exile and revenge.</li>
+</ul>
+<h2>How this generator builds names</h2>
+<p>Names are assembled from drow-styled syllables — prefix, core, and ending for first names, and a
+separate set for house names — following the sound of canon 5e and Forgotten Realms examples, then
+filtered to remove awkward letter runs. That means tens of thousands of first-name and house
+combinations, so a whole drow court won't repeat. Everything is generated in your browser; nothing
+is stored.</p>
+</article>
+
+<div class="ad-slot" data-ad="bottom"></div>
+</main>
+
+<footer>
+<p><a href="./">Home</a> <a href="about.html">About</a> <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></p>
+<p>&copy; 2026 Drow Name Generator. All rights reserved.</p>
+<p>More free tools:
+<a href="https://dragonborn.clickabletools.com/">Dragonborn Names</a>
+<a href="https://tiefling.clickabletools.com/">Tiefling Names</a>
+<a href="https://tabaxi.clickabletools.com/">Tabaxi Names</a>
+<a href="https://orc.clickabletools.com/">Orc Names</a>
+<a href="https://warriorcats.clickabletools.com/">Warrior Cat Names</a></p>
+</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const M={pre:["Driz","Zak","Riz","Din","Nalf","Jarl","Malag","Kren","Sol","Nym","Vorn","Xull","Rhyl","Auro","Zeb","Pharaun","Szord","Belg","Tluth","Ryld"],
+ mid:["","a","i","e","au","o","na"],
+ end:["zt","zen","in","ein","aw","drin","rin","eth","ryn","var","uth","aun","dyr","os","ath","'nafein"]};
+const F={pre:["Mal","Briz","Vier","May","Quen","Tri","Yvon","Shak","Halis","Dani","Vlon","Zeer","Ilph","Nedy","Chal","Sab","Vic","Umr","Faer","Sza"],
+ mid:["","a","i","e","li","na","ith","ae"],
+ end:["ice","za","na","a","thel","el","nel","ti","stra","fae","dril","ith","rin","lene","ithra","onia","ae","yl"]};
+const H={pre:["Xor","Baen","Mizz","Vand","Melar","Oblo","Hunz","Despa","Kenaf","Symry","Auvryn","Tuin","Faen","Zaun","Vorn","Szin","Ghaun","Rilyn","Torm","Do'Ur"],
+ end:["larrin","re","rym","ree","dra","rin","na","fin","vvin","dar","tarl","ryn","orl","ith","quor","aug","den","mtor","ez","rae"]};
+function pick(a){return a[Math.floor(Math.random()*a.length)];}
+function cap(n){n=n.replace(/(.)\1\1+/g,'$1$1');return n[0].toUpperCase()+n.slice(1);}
+function first(g){
+ const set=g==='male'?M:g==='female'?F:(Math.random()<.5?M:F);
+ return cap(pick(set.pre)+(Math.random()<.5?pick(set.mid):'')+pick(set.end));
+}
+function house(){return cap(pick(H.pre)+pick(H.end));}
+$('gen').addEventListener('click',()=>{
+ const g=$('gender').value, withHouse=$('house').value==='yes', n=+$('qty').value;
+ const cards=[];
+ for(let i=0;i<n;i++){
+  const nm=first(g)+(withHouse?' '+house():'');
+  cards.push(`<div class="name-card"><span class="n">${nm}</span><button class="copybtn" data-n="${nm}">copy</button></div>`);
+ }
+ $('out').innerHTML=cards.join('');
+ $('out').style.display='block';
+ document.querySelectorAll('.copybtn').forEach(b=>b.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(b.dataset.n);}catch(e){}
+  b.textContent='copied!';setTimeout(()=>b.textContent='copy',1200);
+ }));
+});
+</script>
+</body>
+</html>
